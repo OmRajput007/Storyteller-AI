@@ -39,5 +39,5 @@ project=proj-xxxxxxxxxxxxxxxx
 
 
 ## 📄 Demo Screenshot
+![01_Screenshot](https://github.com/user-attachments/assets/83be869a-61f6-4a27-a10b-42f8e8378a69)
 
-![Storyteller AI Demo](01_screenshot.png)
