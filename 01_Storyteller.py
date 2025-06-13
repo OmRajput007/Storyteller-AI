@@ -1,22 +1,32 @@
 import openai
 import gradio as gr
+import os
+from dotenv import load_dotenv
 
+# Load your API keys from .env file
+load_dotenv()
+
+openai_api_key = os.getenv("api_key")
+organization_id = os.getenv("organization")
+project_id = os.getenv("project")
+
+# Create the OpenAI client securely
 client = openai.OpenAI(
-    api_key="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",    
-    organization="org-dPxocCavkHBZMkU78g4EFuGf",             
-    project="proj_6WQjQzvnrtQoY5Yiq3mAHgTj"                  
+    api_key=openai_api_key,
+    organization=organization_id,
+    project=project_id
 )
 
-
+# Your GPT function
 def ask_gpt(prompt):
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": f"You are a poetic storyteller who turns boring facts into epic YouTube scripts."},
+            {"role": "system", "content": "You are a poetic storyteller who turns boring facts into epic YouTube scripts."},
             {"role": "user", "content": prompt}
         ]
     )
     return response.choices[0].message.content
 
+# Launch Gradio interface
 gr.Interface(fn=ask_gpt, inputs="text", outputs="text").launch()
-
