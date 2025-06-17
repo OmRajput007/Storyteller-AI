@@ -1,43 +1,72 @@
-# Storyteller AI 🎙️
+# 📖 AI Storyteller – GPT-Powered Story Generator
 
-An AI-powered poetic storyteller that transforms simple text prompts into epic YouTube-style scripts.  
-Powered by OpenAI GPT-3.5 and wrapped with Gradio for instant interactive interface.
-
----
-
-## 🚀 Features
-
-- 🤖 GPT-3.5 fine-tuned persona as poetic storyteller
-- 💬 Gradio-powered simple web UI
-- 🔐 Secure API key handling via `.env` and `python-dotenv`
-- 🧰 Clean, production-level code structure
-- ✅ Fully scalable and extendable (can be easily upgraded to GPT-4, custom agents, or API products)
+Built by **Om Rajput**
 
 ---
 
-## 📦 Tech Stack
+## 🚀 Overview
 
-- Python 3.10+
-- OpenAI API (GPT-3.5 Turbo)
-- Gradio
-- python-dotenv
-- GitHub for version control
-- Professional Git structure with secure key management
+This is a GPT-powered storytelling web app built using **Gradio** and **OpenAI API**.  
+It allows users to input a theme or idea, and the AI will generate a creative, engaging story in seconds.
+
+Perfect for:
+- Writers with creative blocks
+- Kids' bedtime stories
+- Content creators
+- Story lovers
 
 ---
 
-## 🔑 API Keys (Security First)
+## 💡 Features
 
-To keep API keys secure:
+- 🎭 Generate stories from any theme or concept
+- ⚙️ Simple and fast Gradio interface
+- 💬 Natural and creative storytelling with GPT-3.5-turbo
 
-1️⃣ Create a `.env` file in the root directory:
+---
 
-```env
-api_key=sk-xxxxxxxxxxxxxxxxxxxxx
-organization=org-xxxxxxxxxxxxxx
-project=proj-xxxxxxxxxxxxxxxx
+## 🧪 Tech Stack
 
+- Python  
+- Gradio  
+- OpenAI API (chat.completions)
 
-## 📄 Demo Screenshot
-![01_Screenshot](https://github.com/user-attachments/assets/83be869a-61f6-4a27-a10b-42f8e8378a69)
+---
 
+## ▶️ Demo
+
+> *Coming soon: Loom video of the project in action*
+
+---
+
+## 🔧 How to Run Locally
+
+1. Clone the repo:
+```bash
+git clone https://github.com/yourusername/ai-storyteller.git
+cd ai-storyteller
+````
+
+2. Install dependencies:
+
+```bash
+pip install openai gradio
+```
+
+3. Add your OpenAI API key in the Python file.
+
+4. Run:
+
+```bash
+python app.py
+```
+
+---
+
+## 🔗 Connect with Me
+
+* Twitter: [@yourhandle](https://twitter.com/omrajputt00)
+
+---
+
+> Built with 💥 by **Om Rajput**
