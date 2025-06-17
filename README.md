@@ -65,7 +65,7 @@ python app.py
 
 ## 🔗 Connect with Me
 
-* Twitter: [@yourhandle](https://twitter.com/omrajputt00)
+* Twitter: [Twitter](https://twitter.com/omrajputt00)
 
 ---
 
