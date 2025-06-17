@@ -34,8 +34,7 @@ Perfect for:
 ---
 
 ## ▶️ Demo
-
-> *Coming soon: Loom video of the project in action*
+![Screenshot](https://github.com/user-attachments/assets/9b5e9f59-1b5e-4aef-952d-7ac6d8c39f17)
 
 ---
 
